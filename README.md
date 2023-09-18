@@ -74,4 +74,18 @@ Adherence to Python coding conventions and best practices.
 Good luck, and enjoy working on this assignment! If you have any questions or need clarification, reach out during weekend office hours or via the Canvas inBox.
 
 
-
+9/17/2023-Create a summary of python-program-three project:
+I began the program by initializing an empty list under 'contacts' which is where the contacts and their information will be stored.
+I then proceeded to define the function : add contact(), which was implemented to add a contact into the 'contacts' list. 
+Within the add contact () function, I added additional lines of code that each included the following variables: 'name', 'email', and 'phone' in order to store inputs for
+the contact's name, e-mail address, and phone number. 
+I then proceed to create a new dictionary under new_contact = {'name': name, 'phone': phone, 'email': email} that contains keys (under 'name' 'phone' and 'email') that would
+be associated with the values that are inputted by the user. 
+Afterwards, I would append the 'new contact' dictionary to the 'contacts' list that would essentially add any new contacts to 
+the contact list. 
+I then went ahead and implemented two additional functions. The view_contacts() function was implemented to display a list of all of the contacts that are
+stored within the 'contacts'list. I then added the search_contact () function to allow the user to search a contact by their name.
+I then went added and added a main menu that would allow the user to navigate through the Contact Main Menu, with the use of a 'while' loop. 
+The user would have the choice of entering option 1, 2, 3, or 4 and depending on the user's choice would determine whether the 'add_contact()', 'view_contacts()', 
+or the 'search_contact()' functions would appear or if the user would like to exit the program. In addition, I went ahead and implemented an error message should
+the user fail to enter a valid option in the main menu. 
